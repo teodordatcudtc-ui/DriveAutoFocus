@@ -23,7 +23,7 @@ export default function Hero() {
             transition={{ duration: 0.8 }}
             className="lg:pl-0"
           >
-            <div className="text-left max-w-2xl">
+            <div className="text-left lg:text-left text-center max-w-2xl mx-auto lg:mx-0">
               <motion.h1
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
@@ -50,18 +50,18 @@ export default function Hero() {
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.8, delay: 0.7 }}
-                className="flex flex-col sm:flex-row gap-3 justify-center"
+                className="flex flex-col sm:flex-row gap-2 lg:gap-3 justify-center"
               >
                 <Link
                   href="/preturi"
-                  className="inline-flex items-center px-6 py-3 bg-gradient-red text-white font-semibold rounded-lg hover:opacity-90 transition-opacity shadow-lg hover:shadow-xl text-sm sm:text-base"
+                  className="inline-flex items-center justify-center px-4 py-2 lg:px-6 lg:py-3 bg-gradient-red text-white font-semibold rounded-lg hover:opacity-90 transition-opacity shadow-lg hover:shadow-xl text-xs lg:text-sm sm:text-base"
                 >
                   Vezi ofertă
-                  <ArrowRight className="ml-2 w-5 h-5" />
+                  <ArrowRight className="ml-2 w-4 h-4 lg:w-5 lg:h-5" />
                 </Link>
                 <a
                   href="tel:0764421141"
-                  className="inline-flex items-center px-6 py-3 border-2 border-primary text-primary bg-white/10 backdrop-blur-sm font-semibold rounded-lg hover:bg-primary hover:text-white transition-colors text-sm sm:text-base"
+                  className="inline-flex items-center justify-center px-4 py-2 lg:px-6 lg:py-3 border-2 border-primary text-primary bg-white/10 backdrop-blur-sm font-semibold rounded-lg hover:bg-primary hover:text-white transition-colors text-xs lg:text-sm sm:text-base"
                 >
                   Sună acum
                 </a>
