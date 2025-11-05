@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://driveautofocus.ro/sitemap.xml
+
