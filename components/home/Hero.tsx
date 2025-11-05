@@ -54,14 +54,14 @@ export default function Hero() {
               >
                 <Link
                   href="/preturi"
-                  className="inline-flex items-center justify-center px-4 py-2 lg:px-6 lg:py-3 bg-gradient-red text-white font-semibold rounded-lg hover:opacity-90 transition-opacity shadow-lg hover:shadow-xl text-xs lg:text-sm sm:text-base"
+                  className="inline-flex items-center justify-center px-3 py-3.5 lg:px-6 lg:py-3 bg-gradient-red text-white font-semibold rounded-lg hover:opacity-90 transition-opacity shadow-lg hover:shadow-xl text-xs lg:text-sm sm:text-base"
                 >
                   Vezi ofertă
                   <ArrowRight className="ml-2 w-4 h-4 lg:w-5 lg:h-5" />
                 </Link>
                 <a
                   href="tel:0764421141"
-                  className="inline-flex items-center justify-center px-4 py-2 lg:px-6 lg:py-3 border-2 border-primary text-primary bg-white/10 backdrop-blur-sm font-semibold rounded-lg hover:bg-primary hover:text-white transition-colors text-xs lg:text-sm sm:text-base"
+                  className="inline-flex items-center justify-center px-3 py-3.5 lg:px-6 lg:py-3 border-2 border-primary text-primary bg-white/10 backdrop-blur-sm font-semibold rounded-lg hover:bg-primary hover:text-white transition-colors text-xs lg:text-sm sm:text-base"
                 >
                   Sună acum
                 </a>
